@@ -1,6 +1,6 @@
 # HideIPYNBCells
 
-This repository is meant as an example of how, from an original "master" Jupyter notebook, others can be generated filtering which cells from the master notebook to reproduce.
+This repository is meant as an example of how to generate new Jupyter notebooks from an original "master" Jupyter notebook, filtering which cells from the master notebook to reproduce.
 
 The main file is [Example.ipynb](https://github.com/Mv77/HideIPYNBCells/blob/master/Example.ipynb). Each of its cells have [tags](https://blog.jupyter.org/jupyter-notebook-5-0-909c6c172d78), which are used to group cells that one might want to filter. The first cell uses *nbconvert* to generate a new notebook from which cells tagged "Answer" or "Conversion" are removed. The result is [ExampleQuestions.ipynb](https://github.com/Mv77/HideIPYNBCells/blob/master/ExampleQuestions.ipynb).
 
